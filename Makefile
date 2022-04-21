@@ -14,4 +14,4 @@ package-install:
 		python3 -m pip install --user dist/*.whl
 
 lint:
-		poetry run flake8 python-project-lvl1
+		poetry run flake8 hexlet-code
