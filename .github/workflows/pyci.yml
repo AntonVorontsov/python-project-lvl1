@@ -1,8 +1,9 @@
 name: Python CI
 on: push
-build: 
-  jobs:
+jobs: 
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: run linter
         run: make lint
+        
