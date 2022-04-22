@@ -7,3 +7,4 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AntonVorontsov/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AntonVorontsov/python-project-lvl1/actions)
 
+[![asciicast](https://asciinema.org/a/XCHI7XocNwPud24khtK9b81qr.svg)](https://asciinema.org/a/XCHI7XocNwPud24khtK9b81qr)
