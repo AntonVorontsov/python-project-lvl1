@@ -2,7 +2,7 @@ import random
 
 game_task = 'What is the result of the expression?'
 
-def get_question_and_unswer():
+def get_question():
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
     operators = ["+", "-", "*"]
