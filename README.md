@@ -11,6 +11,7 @@
 [![asciicast](https://asciinema.org/a/XCHI7XocNwPud24khtK9b81qr.svg)](https://asciinema.org/a/XCHI7XocNwPud24khtK9b81qr)
 
 "Калькулятор"
+
 [![asciicast](https://asciinema.org/a/iJWnfKkBLDuXuHPQA0A5tavop.svg)](https://asciinema.org/a/iJWnfKkBLDuXuHPQA0A5tavop)
 
 "Наибольший общий делитель (НОД)"
