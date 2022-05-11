@@ -1,15 +1,20 @@
 import random
 
-game_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_question():
+def isprime(k):
+    if k==2 or k==3: return True
+    if k%2==0 or k<2: return False
+    for i in range(3, int(k**0.5)+1, 2):
+        if k%i==0:
+            return False
+    return True
+
+
+def get_question_and_answer():
     question = random.randint(1, 100)
     correct_answer = "no"
-    k = 0
-    for i in range(2, question // 2 + 1):
-        if (question % i == 0):
-            k = k + 1
-    if (k <= 0):
+    if isprime(question) is True:
         correct_answer = "yes"
-    return question, correct_answer
+    return str(question), str(correct_answer)
