@@ -1,20 +1,19 @@
-"""Функция, определяющая основную логику игр:
-- приветствие участника, запрос имени,
-- количество правильных ответов до окончания игры,
-- реакцию системы, в случае, если ответ верный или не верный"""
-
 import prompt
-rounds = 3
+ROUNDS = 3
 
 
-def get_game(game):
+def game_logic(game):
+    """Функция, определяющая основную логику игр:
+    - приветствие участника, запрос имени,
+    - количество правильных ответов до окончания игры,
+    - реакцию системы, в случае, если ответ верный или не верный"""
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
 
     print(game.GAME_TASK)
 
-    for _ in range(rounds):
+    for _ in range(ROUNDS):
         question, correct_answer = game.get_question_and_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
