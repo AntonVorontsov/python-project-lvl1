@@ -10,7 +10,7 @@ def is_prime(k):
         return True
     if k % 2 == 0 or k < 2:
         return False
-    for i in range(3, int(math.sqrt(k)) + 1):   #удалил аргумент 2, как было указано в Вашем примере. С ним была бы проверялись только четные часла - функция работала бы быстрее
+    for i in range(3, int(math.sqrt(k)) + 1):
         if k % i == 0:
             return False
     return True
