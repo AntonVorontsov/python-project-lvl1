@@ -1,8 +1,8 @@
 import prompt
-ROUNDS = 3
+ROUNDS_COUNT = 3
 
 
-def game_logic(game):
+def make_game_logic(game):
     """Функция, определяющая основную логику игр:
     - приветствие участника, запрос имени,
     - количество правильных ответов до окончания игры,
@@ -13,7 +13,7 @@ def game_logic(game):
 
     print(game.GAME_TASK)
 
-    for _ in range(ROUNDS):
+    for _ in range(ROUNDS_COUNT):
         question, correct_answer = game.get_question_and_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
