@@ -13,4 +13,4 @@ def get_question_and_answer():
     correct_answer = progression[random_index]
     progression[random_index] = '..'
     question = " ".join(map(str, progression))
-    return str(question), str(correct_answer)
+    return question, str(correct_answer)

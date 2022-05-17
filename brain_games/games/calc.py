@@ -16,4 +16,4 @@ def get_question_and_answer():
     elif random_operator == "*":
         correct_answer = num1 * num2
     question = f"{num1} {random_operator} {num2}"
-    return str(question), str(correct_answer)
+    return question, str(correct_answer)
