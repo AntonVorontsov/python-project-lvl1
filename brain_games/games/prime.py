@@ -18,4 +18,4 @@ def get_question_and_answer():
     """Функция, реализующая игру "Простое ли число?" """
     question = random.randint(1, 100)
     correct_answer = 'yes' if is_prime(question) else 'no'
-    return question, str(correct_answer)
+    return question, correct_answer

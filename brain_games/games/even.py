@@ -9,4 +9,4 @@ def get_question_and_answer():
     correct_answer = "no"
     if question % 2 == 0:
         correct_answer = "yes"
-    return question, str(correct_answer)
+    return question, correct_answer
